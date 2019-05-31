@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="advanced-p-js.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hover-on/hover-on.css">
+<style>
+
+.animatePara {
+  color:orange;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+}
+
+/*Standard syntax */
+@keyframes example {
+
+  50%  {font-size:60px;}
+  100% {font-size:30px;} 
+}
+</style>
+
+</head>
+
+<body>
+    <div id="root" ></div>
+    <advanced-p color="orange" type="h5" bold id="advancedPara"><h1>Hello</h1></advanced-p>
+    <button class="btn" name="click" onclick="btnAnimation()">Btn</button>
+
+    <script>
+
+
+
+        function btnAnimation() {
+    const advancedP = document.getElementsByTagName('ADVANCED-P')[0]
+    advancedP.setAttribute('class', 'animatePara')
+}
+    </script>
+</body>
+
+</html>
