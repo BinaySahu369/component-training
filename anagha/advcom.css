@@ -1,0 +1,18 @@
+.div1 {
+    width: 100px;
+    height: 100px;
+    -webkit-animation: example 2s linear 0.5s;
+    
+  }
+  @-webkit-keyframes example {
+    0%   {font-size:50px;}
+    25%  {font-size:75px;}
+    50%  {font-size:100px;}
+    75%  {font-size:75px;}
+    100% {font-size:50px;}
+    }
+  
+    .class3 {
+     font-size:10px;
+     color : red; 
+    }
