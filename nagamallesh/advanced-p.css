@@ -1,0 +1,20 @@
+
+    .animatePara {
+      color: purple !important;
+      animation: example 1s linear 1 normal forwards;
+    }
+
+    /*Standard syntax */
+    @keyframes example {
+      0% {
+        font-size: 30px;
+      }
+      100% {
+        font-size: 60px;
+      }
+    }
+    advanced-p .invalid {
+      font-size: 10px;
+      color: red;
+    }
+ 

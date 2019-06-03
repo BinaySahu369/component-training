@@ -17,6 +17,7 @@ class AdvancedP extends HTMLElement {
     connectedCallback () {
         this._build()
     }
+ 
 
     _build () {
         if (this.hasAttribute('bold')) {
@@ -27,10 +28,11 @@ class AdvancedP extends HTMLElement {
         }
         let tagPresent =false;
         if (this.hasAttribute('type')) {
-        const tagType = this.getAttribute('type');
+        let tagType = this.getAttribute('type');
         const validTextTags = ['div', 'h1', 'h2','h3','h4','h5','h6','span','p']
         for (var tag in validTextTags) {
-           if (validTextTags[tag] === tagType.trim().toLowerCase()) {
+            tagType = tagType.trim().toLowerCase()
+           if (validTextTags[tag] === tagType) {
             tagPresent =true;           
             break;
            }
@@ -53,6 +55,7 @@ class AdvancedP extends HTMLElement {
         }
           
           findTrigger(this,tagPresent)
+          
     }
 }
 window.customElements.define('advanced-p', AdvancedP)
