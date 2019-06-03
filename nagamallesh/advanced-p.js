@@ -22,7 +22,7 @@ class AdvancedP extends HTMLElement {
         if (this.hasAttribute('color')) {
             this.style.color=this.getAttribute('color')
         }
-        if (this.hasAttribute('type')) {
+        if (this.hasAttribute('bold')) {
         const tagType = this.getAttribute('type');
         const validTextTags = ["div", "h1", "h2","h3","h4","h5","h6","span","p"];
         let tagPresent =false;
@@ -45,8 +45,7 @@ class AdvancedP extends HTMLElement {
             newElement.textContent = text
             newElement.style.color='red'
               this.textContent = ''
-             // this.parentElement.appendChild(newElement)
-             this.appendChild(newElement)
+              this.parentElement.appendChild(newElement)
           }
         }
           
