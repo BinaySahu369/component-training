@@ -1,0 +1,17 @@
+advanced-status-card .card{
+    min-width: 300px;
+    width:fit-content;
+}
+advanced-status-card .padding
+{
+    padding: 20px 20px;
+}
+advanced-status-card .card .status-bar {
+    height: 4px;
+}
+.wrapper {
+    height: 100vh;
+}
+.wrapper .card {
+margin-top: 60px;
+}
