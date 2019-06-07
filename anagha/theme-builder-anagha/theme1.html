@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template</title>
+  <link rel="stylesheet" href="https://cdn.svc.oneadvanced.com/mosaic/2.0.0/css/mosaic.css">
+  <link rel="stylesheet" href="theme1.css">
+  <style type="text/css">
+    .accordion-scroll {
+    height: 80% !important;
+    /* overflow: hidden; */
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.save-button {
+  position: relative;
+  bottom: 0px !important;
+ 
+}
+
+mosaic-sheet {
+  overflow: hidden !important;
+}
+  </style>
+</head>
+
+<body>
+
+
+  <mosaic-page>
+    <mosaic-navbar dark fixed-top>
+      <mosaic-navbar-brand name="Advanced"></mosaic-navbar-brand>
+
+      <mosaic-navbar-navigation>
+        <mosaic-navbar-nav-item sheet="sideSheeet">
+          <a href="#">
+            <mosaic-icon name="paint_palette"></mosaic-icon>
+            <div>Theme Builder</div>
+          </a>
+        </mosaic-navbar-nav-item>
+       
+      
+         
+            
+        <mosaic-sheet id="sideSheeet" data-width="500" color="white" right>
+
+
+          <mosaic-button class="float-right bg-dark mt-3" sheet="sideSheeet">X</mosaic-button>
+          <h5 class="pl-4 pt-4 pl-4">Preferences</h5>
+       
+         <div class="accordion-scroll">
+            <mosaic-accordion >  <!--style="overflow:auto;" -->
+              <mosaic-accordion-item label="Information" icon="info">
+
+              </mosaic-accordion-item>
+              <mosaic-accordion-item label="Font" icon="info">
+
+              </mosaic-accordion-item>
+
+
+              <mosaic-accordion-item label="Primary Button" icon="button2" >
+                  <mosaic-form noValidate>
+                      <mosaic-text-input name="myInput" id="primButton" block prepend label="primary" placeholder="Pick a color" size="sm">
+                        <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                      </mosaic-text-input>
+                    </mosaic-form>
+            </mosaic-accordion-item>
+
+              <mosaic-accordion-item label="Information" icon="info">
+
+              </mosaic-accordion-item>
+
+
+
+
+              <mosaic-accordion-item label="Navbar Brand" icon="navigation_toolbar_top">
+                <mosaic-form noValidate>
+                  <mosaic-text-input name="myInput" block prepend label="navbar-brand-bg" placeholder="Pick a color" size="sm">
+                    <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                  </mosaic-text-input>
+                </mosaic-form>
+                <mosaic-form noValidate>
+                  <mosaic-text-input name="myInput" block prepend label="navbar-brand-color" placeholder="Pick a color" size="sm">
+                    <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                  </mosaic-text-input>
+                </mosaic-form>
+                <mosaic-form noValidate>
+                  <mosaic-text-input name="myInput" block prepend label="navbar-application-name-color" placeholder="Pick a color" size="sm">
+                    <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                  </mosaic-text-input>
+                </mosaic-form>
+              </mosaic-accordion-item>
+
+              <mosaic-accordion-item label="Navbar" icon="navigation_toolbar_top">
+                <mosaic-form noValidate>
+                  <mosaic-text-input name="myInput" block prepend label="navbar-bg" placeholder="Pick a color" size="sm">
+                    <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                  </mosaic-text-input>
+                </mosaic-form>
+                <mosaic-form noValidate>
+                  <mosaic-text-input name="myInput" block prepend label="navbar-bg" placeholder="Pick a color" size="sm">
+                    <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                  </mosaic-text-input>
+                </mosaic-form>
+                <mosaic-form noValidate>
+                  <mosaic-text-input name="myInput" block prepend label="navbar-color" placeholder="Pick a color" size="sm">
+                    <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                  </mosaic-text-input>
+                </mosaic-form>
+                <mosaic-form noValidate>
+                  <mosaic-text-input name="myInput" block prepend label="navbar-navbar-nav" placeholder="Pick a color" size="sm">
+                    <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                  </mosaic-text-input>
+                </mosaic-form>
+                <mosaic-form noValidate>
+                  <mosaic-text-input name="myInput" block prepend label="navbar-nav-link-color" placeholder="Pick a color" size="sm">
+                    <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                  </mosaic-text-input>
+                </mosaic-form>
+                <mosaic-form noValidate>
+                  <mosaic-text-input name="myInput" block prepend label="navbar-nav-link-color-hover" placeholder="Pick a color" size="sm">
+                    <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                  </mosaic-text-input>
+                </mosaic-form>
+                <mosaic-form noValidate>
+                  <mosaic-text-input name="myInput" block prepend label="navbar-nav-link-icon-fill" placeholder="Pick a color" size="sm">
+                    <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                  </mosaic-text-input>
+                </mosaic-form>
+                <mosaic-form noValidate>
+                  <mosaic-text-input name="myInput" block prepend label="navbar-nav-link-icon-fill-hover" placeholder="Pick a color" size="sm">
+                    <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                  </mosaic-text-input>
+                </mosaic-form>
+                <mosaic-form noValidate>
+                  <mosaic-text-input name="myInput" block prepend label="navbar-nav-link-disabled" placeholder="Pick a color" size="sm">
+                    <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                  </mosaic-text-input>
+                </mosaic-form>
+                <mosaic-form noValidate>
+                  <mosaic-text-input name="myInput" block prepend label="navbar-nav-link-border" placeholder="Pick a color" size="sm">
+                    <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                  </mosaic-text-input>
+                </mosaic-form>
+              </mosaic-accordion-item>
+
+
+              <mosaic-accordion-item label="Sidebar" icon="navigation_toolbar_left">
+                  <mosaic-form noValidate>
+                      <mosaic-text-input name="myInput" block prepend label="sidebar-background-color" placeholder="Pick a color" size="sm">
+                        <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                      </mosaic-text-input>
+                    </mosaic-form>
+                    <mosaic-form noValidate>
+                      <mosaic-text-input name="myInput" block prepend label="sidebar-border-color" placeholder="Pick a color" size="sm">
+                        <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                      </mosaic-text-input>
+                    </mosaic-form>
+                    <mosaic-form noValidate>
+                      <mosaic-text-input name="myInput" block prepend label="sidebar-nav-link-title" placeholder="Pick a color" size="sm">
+                        <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                      </mosaic-text-input>
+                    </mosaic-form>
+                    <mosaic-form noValidate>
+                        <mosaic-text-input name="myInput" block prepend label="sidebar-nav-link-color" placeholder="Pick a color" size="sm">
+                          <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                        </mosaic-text-input>
+                      </mosaic-form>
+                      <mosaic-form noValidate>
+                        <mosaic-text-input name="myInput" block prepend label="sidebar-nav-link-color-hover" placeholder="Pick a color" size="sm">
+                          <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                        </mosaic-text-input>
+                      </mosaic-form>
+                      <mosaic-form noValidate>
+                        <mosaic-text-input name="myInput" block prepend label="sidebar-nav-link-background-color-hover" placeholder="Pick a color" size="sm">
+                          <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                        </mosaic-text-input>
+                      </mosaic-form>
+                      <mosaic-form noValidate>
+                          <mosaic-text-input name="myInput" block prepend label="sidebar-nav-link-color-active" placeholder="Pick a color" size="sm">
+                            <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                          </mosaic-text-input>
+                        </mosaic-form>
+                        <mosaic-form noValidate>
+                          <mosaic-text-input name="myInput" block prepend label="sidebar-nav-link-background-color-active" placeholder="Pick a color" size="sm">
+                            <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                          </mosaic-text-input>
+                        </mosaic-form>
+                        <mosaic-form noValidate>
+                          <mosaic-text-input name="myInput" block prepend label="sidebar-nav-link-border-color-active" placeholder="Pick a color" size="sm">
+                            <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                          </mosaic-text-input>
+                        </mosaic-form>
+                        <mosaic-form noValidate>
+                            <mosaic-text-input name="myInput" block prepend label="sidebar-nav-link-border" placeholder="Pick a color" size="sm">
+                              <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                            </mosaic-text-input>
+                          </mosaic-form>
+                          <mosaic-form noValidate>
+                            <mosaic-text-input name="myInput" block prepend label="sidebar-nav-item-collapse-background-color" placeholder="Pick a color" size="sm">
+                              <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                            </mosaic-text-input>
+                          </mosaic-form>
+                          <mosaic-form noValidate>
+                            <mosaic-text-input name="myInput" block prepend label="sidebar-nav-item-collapse-nav-link-background-color-hover" placeholder="Pick a color" size="sm">
+                              <mosaic-color-input name="myInput" id="sample1"></mosaic-color-input>
+                            </mosaic-text-input>
+                          </mosaic-form>
+                        
+                        
+              </mosaic-accordion-item>
+            
+       
+            </mosaic-accordion>
+          
+          </div>
+          <div class="save-button text-center mt-4">
+            <mosaic-button color="primary" class="do-it">Save and Export CSS</mosaic-button>
+          </div>
+          </mosaic-sheet>
+        
+          
+
+   
+       
+        
+        <mosaic-navbar-nav-item-dropdown icon="user_male_circle">
+            <mosaic-title>John Smith</mosaic-title>
+            <a href="about:blank">
+                <div>Sign Out
+                </div>
+            </a>
+        </mosaic-navbar-nav-item-dropdown>
+      </mosaic-navbar-navigation>
+    </mosaic-navbar>
+
+    <mosaic-main-container fluid>
+      <mosaic-page-header title="Page Header" style="margin-top: 70px;">
+      </mosaic-page-header>
+    </mosaic-main-container>
+  </mosaic-page>
+  <script>
+      function colorPicked() {
+        var x = document.getElementById("primButton");
+        var defaultVal = x.defaultValue;
+        var currentVal = x.value;
+
+        document.getElementById("primButton").value = currentVal;
+        
+        // if (defaultVal == currentVal) {
+        //   document.getElementById("demo").innerHTML = "Default value and current value is the same: "
+        //   + x.defaultValue + " and " + x.value
+        //   + "<br>Change the color of the color picker to see the difference!";
+        // } else {
+        //   document.getElementById("demo").innerHTML = "The default value was: " + defaultVal
+        //   + "<br>The new, current value is: " + currentVal;
+        // }
+      }
+      </script>
+
+  <script src="https://cdn.svc.oneadvanced.com/mosaic-components/components-loader.js"></script>
+
+</body>
+
+</html>
