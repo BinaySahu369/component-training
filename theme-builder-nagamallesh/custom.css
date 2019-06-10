@@ -1,0 +1,149 @@
+.input-group-sm .input-group-prepend,
+.input-group-sm .input-group-append {
+    height: 32px !important;
+}
+
+.input-group-sm .input-group-prepend mosaic-color-input,
+.input-group-sm .input-group-append mosaic-color-input {
+    width: 32px !important;
+    margin: 0 !important;
+}
+
+.input-group-sm .input-group-prepend mosaic-color-input label,
+.input-group-sm .input-group-append mosaic-color-input label {
+    display: none;
+}
+
+.input-group-sm .input-group-prepend mosaic-color-input .valid-feedback,
+.input-group-sm .input-group-append mosaic-color-input .valid-feedback {
+    display: none;
+}
+
+.input-group-sm .input-group-prepend mosaic-color-input .invalid-feedback,
+.input-group-sm .input-group-append mosaic-color-input .invalid-feedback {
+    display: none;
+}
+
+.input-group-sm .input-group-prepend mosaic-color-input .help-text,
+.input-group-sm .input-group-append mosaic-color-input .help-text {
+    display: none;
+}
+
+.input-group-sm .input-group-prepend mosaic-color-input input,
+.input-group-sm .input-group-append mosaic-color-input input {
+    width: 32px !important;
+    height: 32px !important;
+    padding: 0.125rem 0.225rem;
+}
+
+.input-group .input-group-prepend,
+.input-group .input-group-append {
+    height: 42px;
+}
+
+.input-group .input-group-prepend mosaic-color-input,
+.input-group .input-group-append mosaic-color-input {
+    width: 42px;
+    margin: 0 !important;
+}
+
+.input-group .input-group-prepend mosaic-color-input label,
+.input-group .input-group-append mosaic-color-input label {
+    display: none;
+}
+
+.input-group .input-group-prepend mosaic-color-input .valid-feedback,
+.input-group .input-group-append mosaic-color-input .valid-feedback {
+    display: none;
+}
+
+.input-group .input-group-prepend mosaic-color-input .invalid-feedback,
+.input-group .input-group-append mosaic-color-input .invalid-feedback {
+    display: none;
+}
+
+.input-group .input-group-prepend mosaic-color-input .help-text,
+.input-group .input-group-append mosaic-color-input .help-text {
+    display: none;
+}
+
+.input-group .input-group-prepend mosaic-color-input input,
+.input-group .input-group-append mosaic-color-input input {
+    width: 42px;
+    height: 42px;
+    padding: 0.125rem 0.225rem;
+}
+
+.input-group-lg .input-group-prepend,
+.input-group-lg .input-group-append {
+    height: 53px !important;
+}
+
+.input-group-lg .input-group-prepend mosaic-color-input,
+.input-group-lg .input-group-append mosaic-color-input {
+    width: 53px !important;
+    margin: 0 !important;
+}
+
+.input-group-lg .input-group-prepend mosaic-color-input label,
+.input-group-lg .input-group-append mosaic-color-input label {
+    display: none;
+}
+
+.input-group-lg .input-group-prepend mosaic-color-input .valid-feedback,
+.input-group-lg .input-group-append mosaic-color-input .valid-feedback {
+    display: none;
+}
+
+.input-group-lg .input-group-prepend mosaic-color-input .invalid-feedback,
+.input-group-lg .input-group-append mosaic-color-input .invalid-feedback {
+    display: none;
+}
+
+.input-group-lg .input-group-prepend mosaic-color-input .help-text,
+.input-group-lg .input-group-append mosaic-color-input .help-text {
+    display: none;
+}
+
+.input-group-lg .input-group-prepend mosaic-color-input input,
+.input-group-lg .input-group-append mosaic-color-input input {
+    width: 53px !important;
+    height: 53px !important;
+    padding: 0.125rem 0.225rem;
+}
+
+mosaic-sheet {
+    overflow: hidden !important;
+}
+
+.accordianContainer {
+    position: fixed;
+    top: 70px;
+    min-height: 841px;
+    max-height: 841px;
+    overflow: hidden;
+    background-color: gray;
+    overflow-y: scroll;
+}
+
+.save-button {
+    position: relative;
+    bottom: -45px !important;
+}
+
+.sheet__inner .divClass {
+    height: 90%;
+    max-height: 90%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 49px;
+    left: 95px;
+}
+
+.header {
+    position: fixed;
+    top: 10px;
+    width: 100%;
+}
